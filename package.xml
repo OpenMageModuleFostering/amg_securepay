@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>AMG_SecurePay</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GNU</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>AMG_SecurePay</summary>
+    <description>AMG_SecurePay</description>
+    <notes>AMG_SecurePay</notes>
+    <authors><author><name>AMG</name><user>amgms</user><email>magento@amgms.com</email></author></authors>
+    <date>2016-09-13</date>
+    <time>06:43:42</time>
+    <contents><target name="magecommunity"><dir name="AMG"><dir name="SecurePay"><dir name="Block"><dir name="Customer"><file name="Storedcard.php" hash="5155e82c17a0657305fef2ac4fd1709f"/></dir><dir name="Directpost"><dir name="Customervault"><file name="Form.php" hash="0f5a9c26e08ad45298874e5db09e35cf"/></dir><file name="Form.php" hash="fd5fd0f7238722ecb255d4859834d4b9"/></dir></dir><dir name="Helper"><file name="Data.php" hash="9bf2d56189deb05cc1fa8b513c40dfb1"/></dir><dir name="Model"><file name="Api.php" hash="7c6559545ca272b78c7ed1088c7eb182"/><file name="Customervault.php" hash="d8a723bd068d3b7f13dc7352bd8c9509"/><dir name="Directpost"><dir name="Customervault"><dir name="Source"><file name="PaymentAction.php" hash="98bfad6ca419d0db31005eb4a763d199"/></dir></dir><file name="Customervault.php" hash="680ebff6c7fb603bd16fcf9ebf6c71a9"/><dir name="Source"><file name="PaymentAction.php" hash="e2162e441acc4bcad6c36fe386e50520"/></dir></dir><file name="Directpost.php" hash="2520bdf2a8b9b75daa4209215cf55799"/><dir name="Mysql4"><dir name="Customervault"><file name="Collection.php" hash="fc6ceef57e7d676a985df03f1c93d857"/></dir><file name="Customervault.php" hash="9bb15741d53bd491b43ee4884e6ed2a2"/></dir><file name="Observer.php" hash="bfefefa446d27d6bb02a056e8549b088"/></dir><dir name="controllers"><file name="StoredcardController.php" hash="77e6805a8d6eea7b40372c4dba2470da"/></dir><dir name="etc"><file name="config.xml" hash="6eab3d49399e8faa85fead10b84999fe"/><file name="system.xml" hash="29d4b60b9bd2346f843a418fc9f6892e"/></dir><dir name="sql"><dir name="securepay_setup"><file name="mysql4-install-0.1.0.php" hash="36ad780c2559b0aad527cad97a29ee7e"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="AMG"><dir name="securepay"><dir name="directpost"><dir name="customervault"><file name="form.phtml" hash="13f5325afb5b0c8ea7b33888416d3a7f"/></dir><file name="form.phtml" hash="42ff9821f7c07e24f5498b2a7d0726d7"/></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="AMG"><file name="securepay.xml" hash="13c5ae311ac8f3df9519180bed2b77f3"/></dir></dir><dir name="template"><dir name="AMG"><dir name="securepay"><dir name="customer"><file name="storedcard.phtml" hash="79c567da290f7274c527dff2d66a41fc"/></dir><dir name="directpost"><dir name="customervault"><file name="form.phtml" hash="13f5325afb5b0c8ea7b33888416d3a7f"/></dir><file name="form.phtml" hash="54f969bf71cd3c2e6fe9be64cfdb9c6f"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="AMG_SecurePay.xml" hash="438f9aa78bbf55028c080141df9b1b66"/></dir></target><target name="magelocale"><dir name="en_US"><dir name="AMG"><file name="SecurePay.csv" hash="81051bcc2cf1bedf378224b0a93e2877"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.5.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

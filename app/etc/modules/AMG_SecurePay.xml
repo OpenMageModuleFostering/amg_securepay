@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AMG_SecurePay>
+            <active>true</active>
+            <codePool>community</codePool>			
+        </AMG_SecurePay>
+    </modules>
+</config>

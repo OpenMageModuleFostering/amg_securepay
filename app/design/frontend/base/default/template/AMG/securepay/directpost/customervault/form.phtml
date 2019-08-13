@@ -1,0 +1,19 @@
+<?php 
+$_code=$this->getMethodCode();
+$_storedCards = $this->getCustomerVaultsCollection();
+$_storedCardHelper = Mage::helper('securepay');
+?>
+<ul class="form-list" id="payment_form_<?php echo $_code ?>" style="display:none;">
+    <li>
+        <div class="input-box">
+            <?php if ( $_storedCards && (count($_storedCards) > 0) ): ?>
+            <select id="<?php echo $_code ?>_customervault_code" name="payment[customervault_code]" class="required-entry validate-select">
+                <option value=""><?php echo $this->__('--Please Select--')?></option>
+                <?php foreach ($_storedCards as $_storedCard): ?>
+                <option value="<?php echo $_storedCard->getCode() ?>"><?php echo $_storedCardHelper->translateCcType($_storedCard->getData('cc_type')) ?> (<?php echo sprintf('xxxx-%s', $_storedCard->getData('cc_last4')) ?>)</option>
+                <?php endforeach ?>
+            </select>
+            <?php endif; ?>
+        </div>
+    </li>
+</ul>

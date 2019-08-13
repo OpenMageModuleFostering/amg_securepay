@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/AMG_SecurePay",
+    "type": "magento-module",
+    "license": "GNU",
+    "homepage": "",
+    "description": "AMG_SecurePay",
+    "authors": [
+    {
+        "name": "AMG",
+        "email": "magento@amgms.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
