@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/AMG_SecurePay",
+    "name": "openmage-module-fostering\/amg_securepay",
     "type": "magento-module",
     "license": "GNU",
     "homepage": "",
